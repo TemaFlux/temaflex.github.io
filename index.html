@@ -1,7 +1,166 @@
-<!DOCTYPE html>
-<html>
-	<body>
-		<h1>Hello World</h1>
-		<p>I'm hosted with GitHub Pages.</p>
-	</body>
+<!--
+* Visit site by TemaFlex
+* TemaFlex 2018-2025
+* vk.me/artemvka
+* t.me/temaflexs
+-->
+<html class="global fa-events-icons-ready" id="load">
+    <head>
+        <meta property="og:url" content="https://temaflux.site" />
+        <meta property="og:title" content="Hi new world!" />
+        <meta property="og:description" content="Visite site: www.TemaFlux.site" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/assets/img/snippet.png?20210209" />
+        <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+        <title>TemaFlex</title>
+        <link rel="icon" type="image/ico" href="/assets/favicon.png" sizes="45x48">
+        <meta name="yandex-tableau-widget" content="logo=/assets/favicon.png, color=#ffffff">
+
+        <!--
+        * STYLES FLEX
+        -->
+        <meta name="msapplication-TileColor" content="#ffffff">
+
+        <!--
+        * MAIN CSS FILES
+        -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+        <!-- <link href="/assets/css/fontawesome.css" media="all" rel="stylesheet"> -->
+        <link href="/releases/v5.15.2/css/pro.min.css" media="all" rel="stylesheet">
+        <link href="/releases/v5.15.2/css/pro-v4-shims.min.css" media="all" rel="stylesheet">
+        <link href="/releases/v5.15.2/css/pro-v4-font-face.min.css" media="all" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/flexim.css">
+        <link rel="stylesheet" href="/assets/css/jquery.background-video.css">
+
+        <!--
+        * JS SKRIPTS
+        -->
+        <script>var max = 42/2;</script>
+        <script src="/assets/js/temaflex.js?20210209_1"></script>
+        <script src="/assets/js/skel.min.js"></script>
+        <script src="/assets/js/init.js"></script>
+        <!-- <script src="/assets/js/fw.js?4546"></script> -->
+        <!-- <script src="/assets/js/fontawesome.js"></script> -->
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/jquery.session.js"></script>
+        <!-- <script src="/assets/js/kill.js"></script> -->
+        <script src="/assets/js/YouTubeToHtml5.min.js"></script>
+    </head>
+
+    <body bgcolor="#00000" onload="muteCheck();" class="loading" onmousedown="return false" onselectstart="return false">
+        <div id="wrapper">
+            <video class="jquery-background-video" id="video" youtube="" type="video/mp4" autoplay="" loop=""></video>
+
+            <div style="font-size: 20px; position: absolute; z-index: 101; bottom: 20px; width: 90px; cursor: pointer; color: #fff;">
+                <pre style="padding-right: 19px; opacity: 1;" id="rand" onclick="rand(false, 0, false)" class="fa fa-fast-forward"></pre>
+                <pre id="mute" onclick="mute()" class="fa fa-volume-off"></pre>
+            </div>
+
+            <!-- <style>body{overflow:hidden}</style>
+            <div class="kill-feed">
+                <div style="display: none;">
+                <span class="player t">
+                    <img height="20">
+                    <img width="30" height="26">
+                </span>
+                <span class="player ct"></span>
+                </div>
+            </div> -->
+
+            <div id="main" class="blackout">
+                <header id="header">
+                    <span id="clock">PM 07:30</span>
+                    <ul>
+                        <marquee id="scrollOne" aligt="center" scrollamount="100" width="540" style="width:540px;">&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•</marquee>
+                    </ul>
+                    <h1><font color="#FFFFFF">Tema</font> <font color="#14FF6E">Flux</font></h1>
+                    <!-- <p>Оставлю это здесь. {{ ipAddress }}</p> -->
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="https://vk.com/artemvka" title="Vkontakte" target="_blank" class="fa fa-vk"></a>
+                            </li>
+                            <li>
+                                <a href="https://t.me/TemaFlexs" title="New Message!" target="_blank" class="fa fa-telegram"></a>
+                            </li>
+                            <li>
+                                <a href="https://vk.com/funnyscapes" title="My Minecraft Server" target="_blank" class="fa fa-server"></a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <marquee id="scrollTwo" aligt="center" scrollamount="100" width="540" style="width:540px;">&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•</marquee>
+                        </ul>
+                    </nav>
+                    <span id="date">OCT. 22 2004</span>
+                </header>
+            </div>
+        </div>
+
+        <!-- <video style="display: none;" id="preLoadVideo" type="video/mp4" src=""></video>
+        <audio id="preLoadAudio" type="audio/mpeg" src=""></audio> -->
+    </body>
+
+    <script>
+        const videoUrls = [
+            "https://youtu.be/oIaqcCbtIhQ",
+            "https://youtu.be/Npov6wTcWe4",
+            "https://youtu.be/sbY9kkQmkSM",
+            "https://youtu.be/cPe3RpDjjEQ",
+            "https://youtu.be/6jGflMtSmzs",
+            "https://youtu.be/DLie7oHLdM0",
+            "https://youtu.be/YWDtIpujpaY",
+            // "https://youtu.be/Z3lO6d4aZmM",
+            "https://youtu.be/xqK5QLmYE6g",
+            "https://youtu.be/M-y5lthEaKs",
+            "https://youtu.be/O075n3VsmoI",
+            "https://youtu.be/FujrZFmjTJs",
+            "https://youtu.be/Qd7QY_7jaOc",
+            "https://youtu.be/mR_mQduzNEI",
+            "https://youtu.be/335arImzDwA"
+        ];
+
+        function getRandomVideo() {
+            const randomIndex = Math.floor(Math.random() * videoUrls.length);
+            return videoUrls[randomIndex];
+        }
+
+        function getNonRepeatingVideo(currentUrl) {
+            let newUrl;
+            do {
+                newUrl = getRandomVideo();
+            } while (newUrl === currentUrl);
+
+            return newUrl;
+        }
+
+        function embedVideo(videoUrl) {
+            const videoElement = document.getElementById("video");
+            const videoId = videoUrl.split("youtu.be/")[1];
+            videoElement.setAttribute("youtube", videoUrl);
+            videoElement.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&loop=1&playlist=${videoId}`;
+        }
+
+        function handleQueryParams() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const r = urlParams.get("r");
+            const n = urlParams.get("n");
+
+            if (n !== null) {
+                const index = parseInt(n, 10);
+                if (!isNaN(index) && index >= 0 && index < videoUrls.length) {
+                    embedVideo(videoUrls[index]);
+                } else {
+                    embedVideo(getRandomVideo());
+                }
+            } else if (r !== null) {
+                embedVideo(getNonRepeatingVideo(r));
+            } else {
+                embedVideo(getRandomVideo());
+            }
+        }
+
+        handleQueryParams();
+    </script>
 </html>
