@@ -1,0 +1,72 @@
+{
+  "hero": {
+    "title": "Створюю",
+    "magic": "магію",
+    "subtitle": "Java-розробник, що створює унікальні цифрові враження",
+    "play": "Грати",
+    "pause": "Пауза"
+  },
+  "projects": {
+    "title": "Мої проекти",
+    "viewProject": "Переглянути",
+    "funnyscape": {
+      "title": "FunnyScape",
+      "description": "Унікальний сервер з власними плагінами"
+    },
+    "animeList": {
+      "title": "Anime List",
+      "description": "Персональний список аніме з AniXart"
+    },
+    "mikoBot": {
+      "title": "Miko Bot",
+      "description": "Власний бот у Discord з аніме функціями"
+    },
+    "rageMine": {
+      "title": "RageMine",
+      "description": "Розробка функціоналу сайту (Backend)"
+    },
+    "foxDonate": {
+      "title": "FoxDonate",
+      "description": "Розробка вибору системи оплат"
+    },
+    "aisMC": {
+      "title": "AisMC",
+      "description": "Розробка функціоналу сайту (Backend)"
+    },
+    "gd": {
+      "title": "GD",
+      "description": "Розробка функціоналу сайту (Backend)"
+    },
+    "rivnenie": {
+      "title": "Rivnenie",
+      "description": "Розробка приватного сервера в Genshin Impact"
+    },
+    "fabricLeak": {
+      "title": "FabricLeak",
+      "description": "Мод для копіювання меню та інших елементів з сервера"
+    }
+  },
+  "skills": {
+    "title": "Мої навички"
+  },
+  "statistics": {
+    "title": "Моя статистика",
+    "enabled": "Увімкнено",
+    "disabled": "Вимкнено",
+    "languages": "Мови програмування",
+    "totalTime": "Загальний час кодування",
+    "loadingError": "Не вдалося завантажити дані статистики."
+  },
+  "footer": {
+    "title": "Давайте створимо щось круте",
+    "subtitle": "Відкритий для цікавих проектів та співпраці. Давайте втілимо ваші ідеї в реальність!",
+    "rights": "Всі права не захищені."
+  },
+  "nav": {
+    "projects": "Проекти",
+    "skills": "Навички",
+    "contacts": "Контакти"
+  },
+  "language": "Мова"
+}
+

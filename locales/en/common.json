@@ -1,0 +1,72 @@
+{
+  "hero": {
+    "title": "Creating",
+    "magic": "magic",
+    "subtitle": "Java developer creating unique digital experiences",
+    "play": "Play",
+    "pause": "Pause"
+  },
+  "projects": {
+    "title": "My Projects",
+    "viewProject": "View Project",
+    "funnyscape": {
+      "title": "FunnyScape",
+      "description": "Unique server with custom plugins"
+    },
+    "animeList": {
+      "title": "Anime List",
+      "description": "Personal anime list from AniXart"
+    },
+    "mikoBot": {
+      "title": "Miko Bot",
+      "description": "Custom Discord bot with anime features"
+    },
+    "rageMine": {
+      "title": "RageMine",
+      "description": "Website functionality development (Backend)"
+    },
+    "foxDonate": {
+      "title": "FoxDonate",
+      "description": "Development of payment system selection"
+    },
+    "aisMC": {
+      "title": "AisMC",
+      "description": "Website functionality development (Backend)"
+    },
+    "gd": {
+      "title": "GD",
+      "description": "Website functionality development (Backend)"
+    },
+    "rivnenie": {
+      "title": "Rivnenie",
+      "description": "Development of a private server in Genshin Impact"
+    },
+    "fabricLeak": {
+      "title": "FabricLeak",
+      "description": "Mod for copying menus and other elements from the server"
+    }
+  },
+  "skills": {
+    "title": "My Skills"
+  },
+  "statistics": {
+    "title": "My Statistics",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "languages": "Programming Languages",
+    "totalTime": "Total Coding Time",
+    "loadingError": "Failed to load statistics data."
+  },
+  "footer": {
+    "title": "Let's create something cool",
+    "subtitle": "Open for interesting projects and collaborations. Let's bring your ideas to life!",
+    "rights": "All rights are not protected."
+  },
+  "nav": {
+    "projects": "Projects",
+    "skills": "Skills",
+    "contacts": "Contacts"
+  },
+  "language": "Language"
+}
+
